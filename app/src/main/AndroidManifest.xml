@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.miniproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aravind"></activity>
+        <activity android:name=".chenthamani" />
+        <activity android:name=".ottankudi" />
+        <activity android:name=".munisalai" />
+        <activity android:name=".sandhaipettai" />
+        <activity android:name=".pudur" />
+        <activity android:name=".krishnapuramcolony" />
+        <activity android:name=".thirunagar" />
+        <activity android:name=".koripalayam" />
+        <activity android:name=".arapalayam" />
+        <activity android:name=".annanagar" />
+        <activity android:name=".hospitalareaActivity" />
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

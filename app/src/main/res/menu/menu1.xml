@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/filter"
+        android:title="filter"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/sort1"
+               android:title="Sort 1 to 10"
+                android:orderInCategory="100"
+                tools:ignore="MenuTitle">
+            </item>
+
+            <item android:id="@+id/sort2"
+                android:title="Sort 10 to 1"
+                android:orderInCategory="100"
+                tools:ignore="MenuTitle">
+            </item>
+
+
+        </menu>
+    </item>
+</menu>
